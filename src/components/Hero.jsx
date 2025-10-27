@@ -46,7 +46,7 @@ export const Hero = () => {
             Developer & Designer
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
-            I like to do stuff.
+            I use technology to craft analytical tools to serve others.
           </motion.p>
 
           <motion.div className="cta-buttons" variants={staggerContainer}>
@@ -102,8 +102,19 @@ export const Hero = () => {
                 backdropFilter: "blur(10px)",
                 marginBottom: 50,
 			}}>
-				<p>Hi, I’m Ryan Chang, a passionate web developer and designer who loves turning ideas into clean, functional, and visually engaging websites. I specialize in creating responsive front-end experiences with React, CSS animations, and modern JavaScript frameworks.
-I enjoy solving complex problems through thoughtful design and code, and I’m always exploring new technologies to keep my skills sharp. Whether it’s crafting a sleek portfolio or building a dynamic web app, my goal is to deliver solutions that are both beautiful and user-friendly.</p>
+        <h1 className="about-header"
+        style={{
+          marginBottom: 10,
+        }}
+        >
+          I'm Ryan...</h1>
+				<p className="about-description">a developer studying Computer Science and Mathematics at Northeastern University.
+        I am passionate about web development, game design, and utilizing technology to 
+        make life more enjoyable and efficient.
+        I'm proficient in Python, Javascript, and C# using tools such as Git, Unity, and VS Code.
+        I also enjoy using Pandas and NumPy to explore data and visualize it with MatPlotLib.
+        For fun, I love tennis, basketball, chess, drawing, and improving at new things!
+        </p>
 			</div>
 
           <motion.div

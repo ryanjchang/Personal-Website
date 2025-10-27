@@ -142,6 +142,14 @@ export const Contact = () => {
               {formStatus.message}
             </motion.div>
           )}
+          <motion.a href="public\projects\ryan-chang-resume.docx" download
+          style={{
+            textAlign: "center",
+            paddingTop: 30,
+          }}
+          >
+            Download my Resume
+          </motion.a>
         </motion.form>
       </motion.div>
     </motion.section>
