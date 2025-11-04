@@ -142,7 +142,7 @@ export const Contact = () => {
               {formStatus.message}
             </motion.div>
           )}
-          <motion.a href="public\projects\ryan-chang-resume.pdf" download
+          <motion.a href="public/projects/Ryan%20Chang%20Resume.docx" download="Ryan Chang Resume.docx"
           style={{
             textAlign: "center",
             paddingTop: 30,
