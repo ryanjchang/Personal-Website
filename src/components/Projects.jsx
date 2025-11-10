@@ -46,6 +46,27 @@ export const Projects = () => {
         >
           <motion.div
             className="project-image"
+            style={{ backgroundImage: "url('/projects/Home-Page.png')" }}
+            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+          />
+          <h3> Mata</h3>
+          <p>
+            A mobile app that uses AI to verify and reward users for sustainable activities, making environmental responsibility fun and engaging.
+          </p>
+          <div className="project-tech">
+            <span>React Native</span>
+            <span>OpenAI</span>
+            <span>FireBase</span>
+          </div>
+        </motion.div>
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() => window.open('https://github.com/Oasis-NEU/f25-group-11', '_blank')}
+        >
+          <motion.div
+            className="project-image"
             style={{ backgroundImage: "url('/projects/husky.png')" }}
             whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
           />
