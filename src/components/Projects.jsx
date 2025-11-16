@@ -42,7 +42,7 @@ export const Projects = () => {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
-          onClick={() => window.open('https://github.com/Oasis-NEU/f25-group-11', '_blank')}
+          onClick={() => window.open('https://devpost.com/software/mata-2zoh1e', '_blank')}
         >
           <motion.div
             className="project-image"
@@ -63,7 +63,7 @@ export const Projects = () => {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
-          onClick={() => window.open('https://github.com/Oasis-NEU/f25-group-11', '_blank')}
+          onClick={() => window.open('https://healthyhuskies.netlify.app/', '_blank')}
         >
           <motion.div
             className="project-image"
