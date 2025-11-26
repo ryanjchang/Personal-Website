@@ -42,7 +42,9 @@ export const Projects = () => {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
-          onClick={() => window.open('https://devpost.com/software/mata-2zoh1e', '_blank')}
+          onClick={() =>
+            window.open("https://devpost.com/software/mata-2zoh1e", "_blank")
+          }
         >
           <motion.div
             className="project-image"
@@ -51,7 +53,8 @@ export const Projects = () => {
           />
           <h3> Mata</h3>
           <p>
-            A mobile app that uses AI to verify and reward users for sustainable activities, making environmental responsibility fun and engaging.
+            A mobile app that uses AI to verify and reward users for sustainable
+            activities, making environmental responsibility fun and engaging.
           </p>
           <div className="project-tech">
             <span>React Native</span>
@@ -59,34 +62,17 @@ export const Projects = () => {
             <span>FireBase</span>
           </div>
         </motion.div>
-        <motion.div
-          className="project-card"
-          variants={fadeInUp}
-          whileHover={{ y: -10, transition: { duration: 0.2 } }}
-          onClick={() => window.open('https://healthyhuskies.netlify.app/', '_blank')}
-        >
-          <motion.div
-            className="project-image"
-            style={{ backgroundImage: "url('/projects/husky.png')" }}
-            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
-          />
-          <h3> Healthy Huskies</h3>
-          <p>
-            A nutritional tracking app integrating Northeastern dining API to track 
-            and save calories and other nutritional data.
-          </p>
-          <div className="project-tech">
-            <span>React</span>
-            <span>TailwindCSS</span>
-            <span>Supabase</span>
-          </div>
-        </motion.div>
 
         <motion.div
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
-          onClick={() => window.open('https://github.com/ryanjchang/jumpstart-project', '_blank')}
+          onClick={() =>
+            window.open(
+              "https://github.com/ryanjchang/jumpstart-project",
+              "_blank"
+            )
+          }
         >
           <motion.div
             className="project-image"
@@ -98,7 +84,8 @@ export const Projects = () => {
           />
           <h3>Flow Board</h3>
           <p>
-            A comprehensive task planning website containing various assignments with labels, due dates, tags, and categories.
+            A comprehensive task planning website containing various assignments
+            with labels, due dates, tags, and categories.
           </p>
           <div className="project-tech">
             <span>TypeScript</span>
@@ -112,7 +99,34 @@ export const Projects = () => {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
-          onClick={() => window.open('https://razzxx.itch.io/fish-fish-clicker', '_blank')}
+          onClick={() =>
+            window.open("https://healthyhuskies.netlify.app/", "_blank")
+          }
+        >
+          <motion.div
+            className="project-image"
+            style={{ backgroundImage: "url('/projects/husky.png')" }}
+            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+          />
+          <h3> Healthy Huskies</h3>
+          <p>
+            A nutritional tracking app integrating Northeastern dining API to
+            track and save calories and other nutritional data.
+          </p>
+          <div className="project-tech">
+            <span>React</span>
+            <span>TailwindCSS</span>
+            <span>Supabase</span>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() =>
+            window.open("https://razzxx.itch.io/fish-fish-clicker", "_blank")
+          }
         >
           <motion.div
             className="project-image"
@@ -124,8 +138,9 @@ export const Projects = () => {
           />
           <h3>Fish Fish Game</h3>
           <p>
-            A clicker game featuring various upgrades, purchasable items, abilities, and a save/load system.
-            Custom 2D pixel art and custom music soundtrack.
+            A clicker game featuring various upgrades, purchasable items,
+            abilities, and a save/load system. Custom 2D pixel art and custom
+            music soundtrack.
           </p>
           <div className="project-tech">
             <span>C#</span>
@@ -133,7 +148,6 @@ export const Projects = () => {
             <span>Paint.net</span>
           </div>
         </motion.div>
-
       </motion.div>
     </motion.section>
   );
