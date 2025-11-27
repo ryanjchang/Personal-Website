@@ -69,7 +69,7 @@ export const Projects = () => {
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
           onClick={() =>
             window.open(
-              "https://github.com/ryanjchang/jumpstart-project",
+              "https://flow-board-home.vercel.app/",
               "_blank"
             )
           }
@@ -77,7 +77,7 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('/projects/trello.png')",
+              backgroundImage: "url('public/projects/Flow_board.png')",
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
