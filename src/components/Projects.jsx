@@ -38,6 +38,33 @@ export const Projects = () => {
         whileInView="animate"
         viewport={{ once: true }}
       >
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() =>
+            window.open("https://northeasternmealexchange.vercel.app/", "_blank")
+          }
+        >
+          <motion.div
+            className="project-image"
+            style={{ backgroundImage: "url('/projects/NUMealExchange.png')" }}
+            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+          />
+          <h3> NU Meal Exchange</h3>
+          <p>
+            A Northeastern Meal Exchange site to reduce food waste and allow students to exchange their meal swipes and dining dollars.
+          </p>
+          <div className="project-tech">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>JavaScript</span>
+            <span>Supabase</span>
+          </div>
+        </motion.div>
+
+
         <motion.div
           className="project-card"
           variants={fadeInUp}
