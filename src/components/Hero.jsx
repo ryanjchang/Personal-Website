@@ -79,11 +79,6 @@ export const Hero = () => {
 			target="_blank">
               <i className="fab fa-linkedin"> </i>
             </motion.a>
-			<motion.a 
-			href="https://x.com/chang_ryan47278"
-			target="_blank">
-              <i className="fab fa-twitter"> </i>
-            </motion.a>
           </motion.div>
         </motion.div>
 		<motion.div
