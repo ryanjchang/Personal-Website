@@ -38,6 +38,29 @@ export const Projects = () => {
         whileInView="animate"
         viewport={{ once: true }}
       >
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() =>
+            window.open("https://github.com/ryanjchang/LSTM-stock-price-predictor", "_blank")
+          }
+        >
+          <motion.div
+            className="project-image"
+            style={{ backgroundImage: "url('/projects/stock_prices.png')" }}
+            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+          />
+          <h3> LSTM stock price predictor</h3>
+          <p>
+            Long short-term memory stock price predictor using time series data for 5 years of Microsoft stock prices.
+          </p>
+          <div className="project-tech">
+            <span>Python</span>
+            <span>Tensorflow</span>
+            <span>Sklearn</span>
+          </div>
+        </motion.div>
 
         <motion.div
           className="project-card"
