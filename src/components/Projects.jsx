@@ -150,7 +150,7 @@ export const Projects = () => {
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
           onClick={() =>
-            window.open("https://healthyhuskies.netlify.app/", "_blank")
+            window.open("https://github.com/Oasis-NEU/f25-group-11", "_blank")
           }
         >
           <motion.div
