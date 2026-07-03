@@ -32,7 +32,7 @@ function App() {
     viewport={{once: true}}
     transition={{duration: 0.6}}
     >
-      <p> &copy; 2025 RyanTech. All rights reserved.</p>
+      <p></p>
     </motion.footer>
     </div>
   )

@@ -59,6 +59,9 @@ export const ClassProjects = () => {
           <div className="project-tech">
             <span>Python</span>
             <span>TensorFlow</span>
+            <span>OpenCV</span>
+            <span>NLTK</span>
+            <span>Sk-learn</span>
           </div>
         </motion.div>
         <motion.div
@@ -104,6 +107,8 @@ export const ClassProjects = () => {
             <span>C</span>
             <span>Python</span>
             <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
             <span>SQL</span>
           </div>
         </motion.div>
