@@ -69,8 +69,8 @@ export const Hero = () => {
             </motion.a>
           </motion.div>
           <motion.div className="social-links" variants={staggerContainer}>
-            <motion.a 
-			href="https://github.com/ryanjchang/ryanjchang" 
+            <motion.a
+			href="https://github.com/ryanjchang/ryanjchang"
 			target="_blank">
               <i className="fab fa-github"> </i>
             </motion.a>
@@ -104,10 +104,10 @@ export const Hero = () => {
         >
           I'm Ryan...</h1>
 				<p className="about-description">a developer studying Computer Science and Mathematics at Northeastern University.
-        I am passionate about web development, game design, and utilizing technology to 
+        I am passionate about web development, game design, and utilizing technology to
         make life more enjoyable and efficient.
-        I'm proficient in Python, Javascript, and C# using tools such as Git, Unity, and VS Code.
-        I also enjoy using Pandas and NumPy to explore data and visualize it with MatPlotLib.
+        I'm proficient in Python and Javascript and have experience working with large scale data
+        and full-stack development.
         For fun, I love tennis, basketball, chess, drawing, and improving at new things!
         </p>
 			</div>

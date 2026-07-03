@@ -87,7 +87,6 @@ export const Projects = () => {
           </div>
         </motion.div>
 
-
         <motion.div
           className="project-card"
           variants={fadeInUp}
