@@ -197,6 +197,30 @@ export const Projects = () => {
             <span>Paint.net</span>
           </div>
         </motion.div>
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() =>
+            window.open("https://craftinginterpreters.com/", "_blank")
+          }
+        >
+          <motion.div
+            className="project-image"
+            style={{ backgroundImage: "url('/projects/Crafting interpreters.png')" }}
+            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+          />
+          <h3>JLox Interpter</h3>
+          <p>
+            Created a tree-walk interpreter that scans source code and groups into tokens before converting into an Abstract Syntax Tree. 
+            Designed Resolver to pass through syntax and finally interpret expressions, function calls, control flow, and logical operations.
+            Based on the book, <em>Crafting Interpreters</em> by Robert Nystrom
+          </p>
+          <div className="project-tech">
+            <span>Java</span>
+          </div>
+        </motion.div>
       </motion.div>
     </motion.section>
   );
