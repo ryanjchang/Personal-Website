@@ -211,7 +211,7 @@ export const Projects = () => {
             style={{ backgroundImage: "url('/projects/Crafting interpreters.png')" }}
             whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
           />
-          <h3>JLox Interpter</h3>
+          <h3>JLox Interpreter</h3>
           <p>
             Created a tree-walk interpreter that scans source code and groups into tokens before converting into an Abstract Syntax Tree. 
             Designed Resolver to pass through syntax and finally interpret expressions, function calls, control flow, and logical operations.
