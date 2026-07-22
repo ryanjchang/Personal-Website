@@ -30,10 +30,6 @@ export const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.div className="hero-badge">
-            <span> 👋 Hello, I'm </span>
-          </motion.div>
-
           <motion.h1
             className="glitch"
             variants={fadeInUp}
@@ -46,7 +42,7 @@ export const Hero = () => {
             Developer & Designer
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
-            I use technology to craft analytical tools to serve others.
+            Computer Science and Mathematics student at Northeastern University
           </motion.p>
 
           <motion.div className="cta-buttons" variants={staggerContainer}>
@@ -103,11 +99,9 @@ export const Hero = () => {
         }}
         >
           I'm Ryan...</h1>
-				<p className="about-description">a developer studying Computer Science and Mathematics at Northeastern University.
-        I am passionate about web development, game design, and utilizing technology to
-        make life more enjoyable and efficient.
-        I'm proficient in Python and Javascript and have experience working with large scale data
-        and full-stack development.
+				<p className="about-description">a software developer passionate about web development, data science, game design,
+          and utilizing technology to make life more enjoyable and efficient.
+        I'm proficient in Python and have experience working with Java and JavaScript.
         For fun, I love tennis, basketball, chess, drawing, and improving at new things!
         </p>
 			</div>
