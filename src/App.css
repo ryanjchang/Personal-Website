@@ -447,8 +447,10 @@ body{
 
 .project-image{
   height: 240px;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--section-bg);
   position: relative;
   overflow: hidden;
   max-width: 100%;
@@ -504,13 +506,6 @@ body{
 }
 
 
-@media(max-width: 768px){
-  .project-image{
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}
 
 /* Contact Section */
 .contact {
